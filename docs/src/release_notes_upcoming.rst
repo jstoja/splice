@@ -97,3 +97,13 @@
         the health of each background service registered with an automation service. The gauge is ``0`` when the service
         is healthy and ``1`` when it is unhealthy, and is labeled with
         ``automation_service`` and ``service``.
+
+    - Scan
+
+      - The following deprecated endpoints have been removed from the public API:
+
+          - ``/v0/rewards-collected``
+          - ``/v0/round-party-totals``
+          - ``/v0/round-totals``
+          - ``/v0/aggregated-rounds``
+          - ``/v0/round-of-latest-data``
